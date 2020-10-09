@@ -4,8 +4,8 @@
     <Declaration><![CDATA[PROGRAM Main
 VAR
 	// Motors
-	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[VonHamosY-EL7041]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable:=TIIB[VonHamosY-EL7041]^STM Status^Status^Digital input 2'}
+	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[VonHamos_EL7041_E1]^STM Status^Status^Digital input 1;
+                              .bLimitBackwardEnable:=TIIB[VonHamos_EL7041_E1]^STM Status^Status^Digital input 2'}
 	{attribute 'pytmc' := '
 		pv: HXX:VON_HAMOS:MMS:01
 	'}
@@ -19,5 +19,9 @@ END_VAR
 M1.bHardwareEnable := TRUE;
 fbMotionStageM1(stMotionStage:=M1);]]></ST>
     </Implementation>
+    <LineIds Name="Main">
+      <LineId Id="3" Count="1" />
+      <LineId Id="2" Count="0" />
+    </LineIds>
   </POU>
 </TcPlcObject>
