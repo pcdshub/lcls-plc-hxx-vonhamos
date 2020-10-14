@@ -4,8 +4,10 @@
     <Declaration><![CDATA[PROGRAM Main
 VAR
 	// Motors
-	{attribute 'TcLinkTo' := '.bLimitForwardEnable:=TIIB[VonHamos_EL7041_E1]^STM Status^Status^Digital input 1;
-                              .bLimitBackwardEnable:=TIIB[VonHamos_EL7041_E1]^STM Status^Status^Digital input 2'}
+	{attribute 'TcLinkTo' := '.bLimitForwardEnable	:=TIIB[VonHamos_EL1084_E2]^Channel 1^Input;
+                              .bLimitBackwardEnable	:=TIIB[VonHamos_EL1084_E2]^Channel 2^Input;
+							  .bHome				:=TIIB[VonHamos_EL1084_E2]^Channel 3^Input;
+							  .bBrakeRelease		:=TIIB[VonHamos_EL2004_E7]^Channel 1^Output'}
 	{attribute 'pytmc' := '
 		pv: HXX:VON_HAMOS:MMS:01
 	'}

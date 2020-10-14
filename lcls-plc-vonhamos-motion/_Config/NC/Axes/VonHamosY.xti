@@ -1350,7 +1350,7 @@ External Setpoint Generation:
 	<Axis Id="1" CreateSymbols="true" AxisType="1">
 		<Name>__FILENAME__</Name>
 		<AxisPara>
-			<Dynamic AccelerationMaximum="30" DecelerationMaximum="30" Acceleration="14.9254" Deceleration="14.9254" Jerk="44.5534"/>
+			<Dynamic AccelerationMaximum="30" DecelerationMaximum="30" Acceleration="14.9254" Deceleration="14.9254" Jerk="44.5534" DelayTime="0.008"/>
 			<Velo RefSearch="0.5" RefSync="0.5" SlowManual="0.5" FastManual="1" Maximum="5"/>
 			<OtherSettings AllowMotionCmdToSlave="true" PulseDistancePos="0.5" PulseDistanceNeg="0.5"/>
 		</AxisPara>
@@ -1515,6 +1515,7 @@ Drive Status 4 (manually linked):
 		</Drive>
 		<Controller Name="Ctrl" CtrType="1">
 			<CtrPara PriorControlFactor="1">
+				<PosDiffControl Range="1"/>
 				<Observer BandWidth="20"/>
 			</CtrPara>
 		</Controller>
