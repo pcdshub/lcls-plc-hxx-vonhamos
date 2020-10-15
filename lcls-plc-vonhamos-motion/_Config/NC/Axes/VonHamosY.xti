@@ -1351,11 +1351,11 @@ External Setpoint Generation:
 		<Name>__FILENAME__</Name>
 		<AxisPara>
 			<Dynamic AccelerationMaximum="30" DecelerationMaximum="30" Acceleration="14.9254" Deceleration="14.9254" Jerk="44.5534" DelayTime="0.008"/>
-			<Velo RefSearch="0.5" RefSync="0.5" SlowManual="0.5" FastManual="1" Maximum="5"/>
+			<Velo RefSearch="0.1" RefSync="0.1" SlowManual="0.1" FastManual="0.2" Maximum="1.5"/>
 			<OtherSettings AllowMotionCmdToSlave="true" PulseDistancePos="0.5" PulseDistanceNeg="0.5"/>
 		</AxisPara>
 		<Encoder Name="Enc" EncType="4">
-			<EncPara ScaleFactorNumerator="9.765625e-05">
+			<EncPara ScaleFactorNumerator="1.5625e-05" Inverse="true" MaxCount="#x0000ffff">
 				<Inc RefSoftSyncMask="#x0000ffff"/>
 			</EncPara>
 			<Vars VarGrpType="1">
@@ -1424,8 +1424,8 @@ External Setpoint Generation:
 			</Vars>
 		</Encoder>
 		<Drive Name="Drive" DrvType="24">
-			<DrvPara>
-				<Analog VeloReferenz="12.5" ScaleFactorActTorque="0.1"/>
+			<DrvPara Inverse="true">
+				<Analog VeloReferenz="2" ScaleFactorActTorque="0.1"/>
 				<TimeComp TaskDelayCycles="1"/>
 			</DrvPara>
 			<Vars VarGrpType="1">
