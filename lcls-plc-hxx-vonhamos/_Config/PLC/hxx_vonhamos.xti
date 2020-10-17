@@ -923,9 +923,9 @@ External Setpoint Generation:
 			</Relations>
 		</DataType>
 	</DataTypes>
-	<Project GUID="{DC420A94-2600-4AB9-AAFC-4E99B11FC5E1}" Name="vonhamos_motion" PrjFilePath="..\..\vonhamos_motion\vonhamos_motion.plcproj" TmcFilePath="..\..\vonhamos_motion\vonhamos_motion.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
+	<Project GUID="{DC420A94-2600-4AB9-AAFC-4E99B11FC5E1}" Name="hxx_vonhamos" PrjFilePath="..\..\hxx_vonhamos\hxx_vonhamos.plcproj" TmcFilePath="..\..\hxx_vonhamos\hxx_vonhamos.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
 		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="vonhamos_motion\vonhamos_motion.tmc">
-			<Name>vonhamos_motion Instance</Name>
+			<Name>hxx_vonhamos Instance</Name>
 			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 			<Vars VarGrpType="1">
 				<Name>PlcTask Inputs</Name>
@@ -1127,7 +1127,7 @@ External Setpoint Generation:
 		</Instance>
 	</Project>
 	<Mappings>
-		<OwnerA Name="vonhamos_motion Instance">
+		<OwnerA Name="hxx_vonhamos Instance">
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^VonHamos_EK1200_E0^VonHamos_EL1084_E2">
 				<Link VarA="PlcTask Inputs^Main.M1.bHome" VarB="Channel 3^Input" AutoLink="true"/>
 				<Link VarA="PlcTask Inputs^Main.M1.bLimitBackwardEnable" VarB="Channel 2^Input" AutoLink="true"/>

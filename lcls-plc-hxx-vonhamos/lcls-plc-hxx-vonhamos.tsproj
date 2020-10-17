@@ -17,7 +17,7 @@
 			<NC File="NC.xti"/>
 		</Motion>
 		<Plc>
-			<Project File="vonhamos_motion.xti"/>
+			<Project File="hxx_vonhamos.xti"/>
 		</Plc>
 		<Io>
 			<Device DevType="111" DevFlags="#x0003" AmsPort="28673" AmsNetId="5.63.55.4.2.1" RemoteName="Device 1 (EtherCAT)" Id="1">
