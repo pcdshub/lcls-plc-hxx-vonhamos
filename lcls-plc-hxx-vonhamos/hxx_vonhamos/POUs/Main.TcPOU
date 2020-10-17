@@ -9,7 +9,7 @@ VAR
 							  .bHome				:=TIIB[VonHamos_EL1084_E2]^Channel 3^Input;
 							  .bBrakeRelease		:=TIIB[VonHamos_EL2004_E7]^Channel 1^Output'}
 	{attribute 'pytmc' := '
-		pv: HXX:VON_HAMOS:MMS:01
+		pv: HXX:VONHAMOS:MMS:01
 	'}
 	M1 : DUT_MotionStage; // Y axis
 
@@ -22,11 +22,5 @@ M1.bPowerSelf := TRUE;
 M1.bHardwareEnable := TRUE;
 fbMotionStageM1(stMotionStage:=M1);]]></ST>
     </Implementation>
-    <LineIds Name="Main">
-      <LineId Id="3" Count="0" />
-      <LineId Id="19" Count="0" />
-      <LineId Id="4" Count="0" />
-      <LineId Id="2" Count="0" />
-    </LineIds>
   </POU>
 </TcPlcObject>
