@@ -11,14 +11,13 @@ VAR
 	{attribute 'pytmc' := '
 		pv: HXX:VONHAMOS:MMS:01
 	'}
-	M1 : DUT_MotionStage; // Y axis
+	M1 : DUT_MotionStage := (bPowerSelf:=True); // Y axis
 
 	fbMotionStageM1 : FB_MotionStage;
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[// Hardware Enable
-M1.bPowerSelf := TRUE;
 M1.bHardwareEnable := TRUE;
 fbMotionStageM1(stMotionStage:=M1);]]></ST>
     </Implementation>
