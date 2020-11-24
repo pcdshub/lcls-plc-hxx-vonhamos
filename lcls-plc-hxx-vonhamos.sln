@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{B1E792BE-AA5F-4E3C-8C82-674BF9C0715B}") = "lcls-plc-vonhamos-motion", "lcls-plc-vonhamos-motion\lcls-plc-vonhamos-motion.tsproj", "{1E062E7D-D7B5-42FE-B6FC-7666AAD17407}"
+Project("{B1E792BE-AA5F-4E3C-8C82-674BF9C0715B}") = "lcls-plc-hxx-vonhamos", "lcls-plc-hxx-vonhamos\lcls-plc-hxx-vonhamos.tsproj", "{1E062E7D-D7B5-42FE-B6FC-7666AAD17407}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
