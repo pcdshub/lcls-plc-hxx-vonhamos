@@ -1,0 +1,107 @@
+
+NC Settings
+-----------
+
+.. csv-table::
+    :header: Axis ID, Name
+    :align: center
+
+        1, VonHamosY
+        2, Axis 2 (Spare)
+        3, Axis 3 (Spare)
+        4, Axis 4 (Spare)
+
+
+
+Axis 1: VonHamosY
+^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :header: Setting, Value
+    :align: center
+
+    Axis ID, 1
+    Name, VonHamosY
+    AxisType, 1
+    CreateSymbols, true
+    Dynamic:Acceleration, 14.9254
+    Dynamic:AccelerationMaximum, 30
+    Dynamic:Deceleration, 14.9254
+    Dynamic:DecelerationMaximum, 30
+    Dynamic:DelayTime, 0.008
+    Dynamic:Jerk, 44.5534
+    Enc:EncType, 4
+    Enc:Inc:RefSoftSyncMask, #x0000ffff
+    Enc:Inverse, true
+    Enc:MaxCount, #x0000ffff
+    Enc:ScaleFactorNumerator, 1.5625e-05
+    Enc:SoftEndMaxControl:Enable, true
+    Enc:SoftEndMaxControl:Range, 25
+    Id, 1
+    OtherSettings:AllowMotionCmdToSlave, true
+    OtherSettings:PulseDistanceNeg, 0.5
+    OtherSettings:PulseDistancePos, 0.5
+    Velo:FastManual, 0.2
+    Velo:Maximum, 1.5
+    Velo:RefSearch, 0.1
+    Velo:RefSync, 0.1
+    Velo:SlowManual, 0.1
+
+
+
+Axis 2: Axis 2 (Spare)
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :header: Setting, Value
+    :align: center
+
+    Axis ID, 2
+    Name, Axis 2 (Spare)
+    AxisType, 1
+    CreateSymbols, true
+    Enc:EncType, 4
+    Enc:Inc:RefSoftSyncMask, #x0000ffff
+    Enc:MaxCount, #x0000ffff
+    Id, 2
+    OtherSettings:AllowMotionCmdToSlave, true
+
+
+
+Axis 3: Axis 3 (Spare)
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :header: Setting, Value
+    :align: center
+
+    Axis ID, 3
+    Name, Axis 3 (Spare)
+    AxisType, 1
+    CreateSymbols, true
+    Enc:EncType, 4
+    Enc:Inc:RefSoftSyncMask, #x0000ffff
+    Enc:MaxCount, #x0000ffff
+    Id, 3
+    OtherSettings:AllowMotionCmdToSlave, true
+
+
+
+Axis 4: Axis 4 (Spare)
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :header: Setting, Value
+    :align: center
+
+    Axis ID, 4
+    Name, Axis 4 (Spare)
+    AxisType, 1
+    CreateSymbols, true
+    Enc:EncType, 4
+    Enc:Inc:RefSoftSyncMask, #x0000ffff
+    Enc:MaxCount, #x0000ffff
+    Id, 4
+    OtherSettings:AllowMotionCmdToSlave, true
+
+

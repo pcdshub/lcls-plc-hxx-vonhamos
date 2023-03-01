@@ -1,23 +1,24 @@
-lcls-plc-vonhamos-motion
-------------------------
+lcls-plc-hxx-vonhamos
+---------------------
 
 .. toctree::
     :maxdepth: 2
-    :caption: lcls-plc-vonhamos-motion
+    :caption: lcls-plc-hxx-vonhamos
 
-    lcls-plc-vonhamos-motion_pragmas
-    lcls-plc-vonhamos-motion_nc
-    lcls-plc-vonhamos-motion_boxes
-    lcls-plc-vonhamos-motion_links
+    lcls-plc-hxx-vonhamos_pragmas
+    lcls-plc-hxx-vonhamos_nc
+    lcls-plc-hxx-vonhamos_ethercat
+    lcls-plc-hxx-vonhamos_boxes
+    lcls-plc-hxx-vonhamos_links
 
 
 .. toctree::
     :maxdepth: 2
-    :caption: vonhamos_motion
+    :caption: hxx_vonhamos
 
-    lcls-plc-vonhamos-motion_vonhamos_motion_summary
-    lcls-plc-vonhamos-motion_vonhamos_motion_epics
-    lcls-plc-vonhamos-motion_vonhamos_motion_source
+    lcls-plc-hxx-vonhamos_hxx_vonhamos_summary
+    lcls-plc-hxx-vonhamos_hxx_vonhamos_epics
+    lcls-plc-hxx-vonhamos_hxx_vonhamos_source
 
 
 
